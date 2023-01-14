@@ -48,11 +48,12 @@ class VideoAnalysis:
         if video_id is not None:
             print(video_id)
 
-            model_folder_path = 'C:/Users/serg/PycharmProjects/cpe_desktop_coursework/trained_models/'
-            result_crop_photo_f = 'C:/Users/serg/PycharmProjects/cpe_desktop_coursework/results_crop/'
-            result_full_f = 'C:/Users/serg/PycharmProjects/cpe_desktop_coursework/results_full/'
+            model_folder_path = 'trained_models/'
+            result_crop_photo_f = 'results_crop/'
+            result_full_f = 'results_full/'
             detection_model_path = model_folder_path + 'haarcascade_frontalface_default.xml'
             emotion_model_path = model_folder_path + 'emotion_model.hdf5'
+            #download weights file from this link https://github.com/yu4u/age-gender-estimation/releases/download/v0.5/weights.28-3.73.hdf5
             weights_file = model_folder_path + 'weights.28-3.73.hdf5'
             emotion_labels = self.get_labels('emotions')
             gender_labels = self.get_labels('gender')
