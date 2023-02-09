@@ -28,4 +28,4 @@ Project uses next technologies:
 4. Run `main.py`
 
 # Additional information
-If you have any additional questions, contact me on [LinkedIn](https://www.linkedin.com/in/marinatsuk/)
+If you have any additional questions, contact me on [LinkedIn](https://www.linkedin.com/in/marynatsuk/)
